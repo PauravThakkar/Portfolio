@@ -1,0 +1,26 @@
+
+.home {
+  &Banner {
+    background-image: url("/light/homeBanner.png");
+    width: 100vw;
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dummyContent {
+    height: 100vh;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .homeBanner {
+    background-image: url("/dark/homeBanner.png")
+  }
+}
