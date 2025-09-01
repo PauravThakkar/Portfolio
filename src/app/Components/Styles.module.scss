@@ -1,0 +1,20 @@
+.navbar {
+  min-width: 100vw;
+  
+  &Center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  a {
+    padding: 12px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #1d2127;
+    }
+  }
+}
